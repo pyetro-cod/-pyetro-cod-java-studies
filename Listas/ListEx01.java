@@ -11,6 +11,11 @@ public class ListEx01 {
         codes2.add(codes[1]);
         codes2.add(30);
 
+
+        int tamanho = codes2.size();
         codes2.forEach(System.out::println);
+        System.out.println(tamanho);
+
+        codes2.forEach(item -> System.out.println(item));
     }
 }
